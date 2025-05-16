@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Máquina Papo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://img.freepik.com/vetores-premium/pedacos-de-vidro-quebrados-vidro-estilhaado-em-fundo-preto-ilustracao-realista_9086098.htm');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid gold;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: gold;
+      margin-bottom: 20px;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1rem;
+      background-color: white;
+      color: black;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background-color: gold;
+      color: black;
+    }
+  </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1291261651936627');
+    fbq('track', 'Purchase');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1291261651936627&ev=Purchase&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+</head>
+<body>
+  <img src="https://i.imgur.com/xR5nu8s.png" alt="Foto de perfil" class="profile-img" />
+  <h1>Máquina Papo</h1>
+  <a class="download-btn" href="https://drive.google.com/uc?export=download&id=1oyhDx50g_y-ikFxw9cy9L-GjkB_XX2be" download>Download</a>
+</body>
+</html>
